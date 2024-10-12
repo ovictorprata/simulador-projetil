@@ -21,6 +21,13 @@ canvas {
   border-radius: 0.5rem;
   margin-bottom: 20px;
 }
+
+.inputs {
+  background-color: #def3da;
+  padding: 15px;
+  border-radius: 0.5rem;
+  margin-bottom: 20px;
+}
 /* Estilo para o controle deslizante */
 input[type="range"] {
   -webkit-appearance: none; /* Remove o estilo padrão do controle deslizante no Safari */
