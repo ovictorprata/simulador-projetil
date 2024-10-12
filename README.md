@@ -11,6 +11,10 @@ O **Simulador de Trajetória de Projétil** permite que os usuários visualizem 
 - Visualização da trajetória em um gráfico interativo.
 - Comparação de múltiplas trajetórias através de checkboxes que permitem habilitar ou desabilitar a visualização de cada trajetória no gráfico.
 
+## Link para o Deploy
+
+Você pode acessar o simulador diretamente através deste link: [Simulador de Trajetória de Projétil](https://ovictorprata.github.io/simulador-projetil/)
+
 ## Como Usar
 
 1. **Ajustar Parâmetros:**
