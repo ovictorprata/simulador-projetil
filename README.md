@@ -39,25 +39,22 @@ O simulador é construído utilizando as seguintes tecnologias:
 O simulador calcula a trajetória do projétil com base nas seguintes equações:
 
 - **Tempo total de voo**:
-  \[
-  t\_{vo} = \frac{2 \cdot v_0 \cdot \sin(\theta)}{g}
-  \]
+
+  - `t_vo = (2 * v_0 * sin(θ)) / g`
 
 - **Posição horizontal**:
-  \[
-  x = v_0 \cdot \cos(\theta) \cdot t
-  \]
+
+  - `x = v_0 * cos(θ) * t`
 
 - **Posição vertical**:
-  \[
-  y = v_0 \cdot \sin(\theta) \cdot t - 0.5 \cdot g \cdot t^2
-  \]
+
+  - `y = v_0 * sin(θ) * t - 0.5 * g * t^2`
 
   Onde:
 
-  - \( v_0 \): Velocidade inicial (m/s)
-  - \( \theta \): Ângulo de lançamento (radianos)
-  - \( g \): Aceleração da gravidade (aproximadamente 9.81 m/s²)
+  - **v₀**: Velocidade inicial (m/s)
+  - **θ**: Ângulo de lançamento (radianos)
+  - **g**: Aceleração da gravidade (aproximadamente 9.81 m/s²)
 
 ## Requisitos
 
@@ -67,7 +64,3 @@ O simulador calcula a trajetória do projétil com base nas seguintes equações
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias, relatórios de bugs ou sugestões. Para isso, crie um fork deste repositório e envie suas alterações através de um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).

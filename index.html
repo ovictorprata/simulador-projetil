@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="txt-light">Simulador de Projetil</h1>
+      <h1 class="text-light">Simulador de Projetil</h1>
     </header>
 
     <div class="container">
@@ -89,10 +89,15 @@
             <span id="anguloValue">45</span>°
           </div>
         </div>
-
-        <button class="btn btn-success" onclick="plotarTrajetoria()">
-          Atualizar Trajetória
-        </button>
+        <div class="d-flex flex-column pt-4">
+          <!-- Botão para limpar o gráfico -->
+          <button class="btn btn-danger mb-4" onclick="limparGrafico()">
+            Limpar Gráfico
+          </button>
+          <button class="btn btn-success" onclick="plotarTrajetoria()">
+            Atualizar Trajetória
+          </button>
+        </div>
       </div>
 
       <canvas id="trajetoriaChart"></canvas>
@@ -104,7 +109,7 @@
       </div>
     </div>
 
-    <footer class="bg-light text-dark text-center py-3">
+    <footer class="bg-dark text-light text-center py-3 mt-5">
       <p>Desenvolvido por @ovictorprata</p>
     </footer>
 
